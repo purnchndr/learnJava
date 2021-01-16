@@ -19,12 +19,14 @@ public class shiftAnArrayByD {
     public static void main(String[] args){
         int[] arr = {1,2,3,4,5,6,7,8,9};
         int d = 2;
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);Scanner in2 = new Scanner(System.in);
 
         System.out.println("Given array is "+ Arrays.toString(arr));
         System.out.println("Enter D");
         d = input.nextInt();
+        System.out.println("Custom Input");
+        String c= in2.nextLine();
         rotateByD(arr,d);
-        System.out.println("Processed array is "+Arrays.toString(arr));
+        System.out.println(c+" "+Arrays.toString(arr));
     }
 }
